@@ -6,7 +6,7 @@ body {
     font-weight: 700;
 }
 
-.keyboard, #black-keys-container, #white-keys-container {
+div, .keyboard, #black-keys-container, #white-keys-container {
     display: flex;
 }
 
@@ -19,49 +19,38 @@ body {
     justify-content: center;
 }
 
-/* div {
-    border: 1px solid greenyellow;
-    padding: 20px;
-} */
-
 #black-keys-container {
-    align-items: stretch;
-    column-gap: 1.2em;
+    column-gap: 1.25em;
     height: 40%;
 }
 
 #white-keys-container {
-    align-items: stretch;
     height: 100%;
 }
 
 .key {
     flex-grow: 1;
-    /* justify-content: bottom; */
+    flex-direction: column-reverse;
 }
-
-/* .key.hide {
-    visibility: hidden;
-} */
 
 .key.white {
     background-color: aliceblue;
     color: black;
     border: 1px solid black;
-    padding: 2rem;
     height: 40vh;
+    width: 5rem;
 }
 
 .key.black {
     background-color: black;
     color: aliceblue;
     border: 1px solid aliceblue;
-    padding: 1.25rem;
     height: 25vh;
+    width: 3.5rem;
     margin-bottom: -40vh;
     z-index: 1;
 }
 
 .key.black.push {
-    margin-right: 10rem;
+    margin-right: 10.5rem;
 }
