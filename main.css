@@ -55,3 +55,12 @@ div, .keyboard, #black-keys-container, #white-keys-container {
 .key.black.push {
     margin-right: 5rem;
 }
+
+@keyframes press-keyboard {
+    from {background-color: rgb(255, 221, 0);}
+    to {background-color: red;}
+}
+.key.pressed {
+    animation-name: press-keyboard;
+    animation-duration: 0.4s;
+}
