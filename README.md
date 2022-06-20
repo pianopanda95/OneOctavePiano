@@ -1,3 +1,3 @@
 # OneOctavePiano
 
-In progress...
+A really fun practice project.
