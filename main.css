@@ -26,6 +26,7 @@ div, .keyboard, #black-keys-container, #white-keys-container {
 
 #white-keys-container {
     height: 100%;
+    margin-left: 5rem;
 }
 
 .key {
@@ -52,5 +53,5 @@ div, .keyboard, #black-keys-container, #white-keys-container {
 }
 
 .key.black.push {
-    margin-right: 10.5rem;
+    margin-right: 5rem;
 }
